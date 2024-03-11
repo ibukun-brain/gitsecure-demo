@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.views.decorators.csrf import csrf_exempt
 from django.template import Template
-jj
+
 subprocess.call("echo 'hello'", shell=True)
 subprocess.call("grep -R {} .".format(sys.argv[1]), shell=True, cwd="/home/user")
 
