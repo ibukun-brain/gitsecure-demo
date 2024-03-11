@@ -12,7 +12,7 @@ def bad3(request):
     response = Template.render(request, 'vulnerable/xss/form.html', globals())
     response.set_cookie(key='monster test', value='omnomnomnomnom!')
     return response
-yyy
+
 def file_access(request):
     msg = request.GET.get('msg', '')
     return render(request, 'vulnerable/injection/file_access.html',
